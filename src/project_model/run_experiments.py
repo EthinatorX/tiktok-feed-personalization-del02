@@ -1,4 +1,4 @@
-"""Run fixed-seed baseline and alternative conditions; write CSV and SVG/PNG outputs."""
+"""Run fixed-seed baseline and alternative conditions; write CSV and PNG/SVG outputs."""
 
 from __future__ import annotations
 
@@ -34,7 +34,34 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
-def run_condition(label: str, personalization_weight: float) -> list[dict]:
+def write_distribution_csv(label: str, rows: list[dict], weight: float) -> None:
+    """Write one compact row per round with category counts and diversity measures."""
+    category_columns = {
+        "Food & cooking": "food_cooking",
+        "Travel & places": "travel_places",
+        "Fashion & beauty": "fashion_beauty",
+        "Comedy & memes": "comedy_memes",
+        "Gaming": "gaming",
+        "Music & dance": "music_dance",
+    }
+    by_round: dict[int, dict] = {}
+    for row in rows:
+        round_number = int(row["round"])
+        record = by_round.setdefault(round_number, {
+            "round": round_number,
+            **{column: 0 for column in category_columns.values()},
+            "distinct_categories": int(row["distinct_categories_in_feed"]),
+            "dominant_category_share": row["dominant_category_share"],
+            "personalization_weight": weight,
+        })
+        record[category_columns[row["category"]]] = int(row["recommendation_count"])
+    write_csv(
+        OUTPUT_DIR / f"{label}_raw_00_category_distribution_by_round.csv",
+        [by_round[number] for number in sorted(by_round)],
+    )
+
+
+def run_condition(label: str, personalization_weight: float) -> tuple[list[dict], list[dict]]:
     settings = RunSettings(
         personalization_weight=personalization_weight,
         rounds=DEFAULT_ROUNDS,
@@ -45,16 +72,20 @@ def run_condition(label: str, personalization_weight: float) -> list[dict]:
     while model.round_number < model.rounds:
         model.step()
 
+    exposure_rows = model.history
+    feed_rows = model.feed_history
+
     write_csv(
         OUTPUT_DIR / f"{label}_raw_00_category_exposure_by_round.csv",
-        model.history,
+        exposure_rows,
     )
     write_csv(
         OUTPUT_DIR / f"{label}_raw_01_recommendation_trace.csv",
-        model.feed_history,
+        feed_rows,
     )
-    make_exposure_plot(label, model.history, personalization_weight)
-    return model.history
+    write_distribution_csv(label, exposure_rows, personalization_weight)
+    make_exposure_plot(label, exposure_rows, personalization_weight)
+    return exposure_rows, feed_rows
 
 
 def make_exposure_plot(label: str, rows: list[dict], weight: float) -> None:
@@ -70,7 +101,7 @@ def make_exposure_plot(label: str, rows: list[dict], weight: float) -> None:
             label=category,
         )
     ax.set(
-        title=f"Category exposure by round — {label.title()} (lambda = {weight})",
+        title=f"Category exposure by round — {label.title()} (λ = {weight})",
         xlabel="Recommendation round",
         ylabel="Videos from category in feed (of 10)",
         xticks=list(range(1, DEFAULT_ROUNDS + 1)),
@@ -92,10 +123,11 @@ def make_exposure_plot(label: str, rows: list[dict], weight: float) -> None:
 def make_comparison_plot(condition_rows: dict[str, list[dict]]) -> None:
     fig, axes = plt.subplots(2, 1, figsize=(10, 7), sharex=True)
     for label, rows in condition_rows.items():
-        by_round = {}
+        # Repeated category rows hold the same feed-level diversity value.
+        unique_rounds = {}
         for row in rows:
-            by_round[row["round"]] = row
-        ordered = [by_round[r] for r in sorted(by_round)]
+            unique_rounds[row["round"]] = row
+        ordered = [unique_rounds[r] for r in sorted(unique_rounds)]
         axes[0].plot(
             [row["round"] for row in ordered],
             [row["distinct_categories_in_feed"] for row in ordered],
@@ -132,10 +164,10 @@ def make_comparison_plot(condition_rows: dict[str, list[dict]]) -> None:
 def write_summary(condition_rows: dict[str, list[dict]]) -> None:
     summary = []
     for label, rows in condition_rows.items():
-        rounds = {}
+        round_rows = {}
         for row in rows:
-            rounds[row["round"]] = row
-        values = list(rounds.values())
+            round_rows[row["round"]] = row
+        values = list(round_rows.values())
         summary.append({
             "condition": label,
             "personalization_weight": CONDITIONS[label],
@@ -155,12 +187,13 @@ def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     condition_rows: dict[str, list[dict]] = {}
     for label, weight in CONDITIONS.items():
-        condition_rows[label] = run_condition(label, weight)
+        rows, _ = run_condition(label, weight)
+        condition_rows[label] = rows
     make_comparison_plot(condition_rows)
     write_summary(condition_rows)
     print("Completed baseline and alternative recommendation-feed runs.")
     print(f"Outputs saved to: {OUTPUT_DIR}")
-    print("Baseline lambda=0.0; alternative lambda=0.8; seed=42; rounds=20; feed size=10.")
+    print("Baseline λ=0.0; alternative λ=0.8; seed=42; rounds=20; feed size=10.")
 
 
 if __name__ == "__main__":

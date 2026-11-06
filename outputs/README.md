@@ -1,6 +1,6 @@
 # Output files
 
-The files in this folder are provisional outputs generated while validating the model's logic using a temporary test-only Mesa API compatibility shim. They are included to show the expected file structure and output format, but they are **not yet verified Mesa 3.5.2 outputs**.
+The checked-in CSV and SVG files are **provisional logic-check outputs** generated using a temporary test-only Mesa API compatibility shim. They are not verified Mesa 3.5.2 outputs. The raw CSVs include a `validation_status` field to make this status explicit.
 
 After installing the dependencies from the repository root, run:
 
@@ -8,4 +8,4 @@ After installing the dependencies from the repository root, run:
 python src/project_model/run_experiments.py
 ```
 
-This overwrites the provisional CSV and PNG files with outputs from the actual Mesa-based project model. Use only those regenerated files in the final DEL02.1 comparison.
+This overwrites the provisional output files and generates the detailed exposure traces, per-video recommendation traces, summary CSV, and PNG/SVG graphs from the installed Mesa-based project model. Inspect the regenerated results before writing the DEL02.1 comparison or creating a submission release.

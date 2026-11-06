@@ -1,0 +1,3 @@
+condition,personalization_weight,rounds,feed_size,mean_distinct_categories,mean_dominant_category_share,validation_status
+baseline,0.0,20,10,5.0,0.3,provisional_test_shim
+alternative,0.8,20,10,1.45,0.875,provisional_test_shim
