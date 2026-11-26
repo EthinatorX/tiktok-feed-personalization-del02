@@ -1,0 +1,201 @@
+round,video_id,category,ranking_score,engaged
+1,V087,Gaming,0.549754,0
+1,V097,Gaming,0.549612,0
+1,V061,Comedy & memes,0.548952,0
+1,V034,Travel & places,0.547312,0
+1,V099,Gaming,0.547108,1
+1,V025,Travel & places,0.545721,1
+1,V110,Music & dance,0.545382,1
+1,V072,Comedy & memes,0.544291,0
+1,V054,Fashion & beauty,0.543665,0
+1,V077,Comedy & memes,0.541455,0
+2,V087,Gaming,0.573754,1
+2,V097,Gaming,0.573612,1
+2,V034,Travel & places,0.571312,0
+2,V099,Gaming,0.571108,0
+2,V025,Travel & places,0.569721,1
+2,V110,Music & dance,0.569382,1
+2,V115,Music & dance,0.565263,1
+2,V084,Gaming,0.563782,0
+2,V111,Music & dance,0.561585,0
+2,V116,Music & dance,0.561052,1
+3,V110,Music & dance,0.641382,1
+3,V115,Music & dance,0.637263,1
+3,V111,Music & dance,0.633585,1
+3,V116,Music & dance,0.633052,0
+3,V087,Gaming,0.621754,1
+3,V097,Gaming,0.621612,1
+3,V099,Gaming,0.619108,1
+3,V102,Music & dance,0.618072,0
+3,V103,Music & dance,0.614171,1
+3,V084,Gaming,0.611782,1
+4,V110,Music & dance,0.737382,0
+4,V115,Music & dance,0.733263,0
+4,V111,Music & dance,0.729585,1
+4,V116,Music & dance,0.729052,1
+4,V087,Gaming,0.717754,1
+4,V097,Gaming,0.717612,1
+4,V099,Gaming,0.715108,1
+4,V102,Music & dance,0.714072,1
+4,V103,Music & dance,0.710171,1
+4,V084,Gaming,0.707782,1
+5,V110,Music & dance,0.833382,1
+5,V115,Music & dance,0.829263,1
+5,V111,Music & dance,0.825585,1
+5,V116,Music & dance,0.825052,0
+5,V087,Gaming,0.813754,0
+5,V097,Gaming,0.813612,1
+5,V099,Gaming,0.811108,1
+5,V102,Music & dance,0.810072,1
+5,V103,Music & dance,0.806171,1
+5,V084,Gaming,0.803782,1
+6,V110,Music & dance,0.945382,0
+6,V115,Music & dance,0.941263,1
+6,V111,Music & dance,0.937585,1
+6,V116,Music & dance,0.937052,1
+6,V102,Music & dance,0.922072,0
+6,V103,Music & dance,0.918171,1
+6,V106,Music & dance,0.914096,1
+6,V118,Music & dance,0.913895,1
+6,V119,Music & dance,0.910897,1
+6,V104,Music & dance,0.903697,1
+7,V110,Music & dance,0.945382,1
+7,V115,Music & dance,0.941263,1
+7,V111,Music & dance,0.937585,0
+7,V116,Music & dance,0.937052,1
+7,V102,Music & dance,0.922072,1
+7,V103,Music & dance,0.918171,1
+7,V106,Music & dance,0.914096,0
+7,V118,Music & dance,0.913895,1
+7,V119,Music & dance,0.910897,1
+7,V104,Music & dance,0.903697,1
+8,V110,Music & dance,0.945382,1
+8,V115,Music & dance,0.941263,1
+8,V111,Music & dance,0.937585,1
+8,V116,Music & dance,0.937052,0
+8,V102,Music & dance,0.922072,1
+8,V103,Music & dance,0.918171,0
+8,V106,Music & dance,0.914096,1
+8,V118,Music & dance,0.913895,1
+8,V119,Music & dance,0.910897,0
+8,V104,Music & dance,0.903697,0
+9,V110,Music & dance,0.945382,0
+9,V115,Music & dance,0.941263,0
+9,V111,Music & dance,0.937585,0
+9,V116,Music & dance,0.937052,1
+9,V102,Music & dance,0.922072,1
+9,V103,Music & dance,0.918171,1
+9,V106,Music & dance,0.914096,1
+9,V118,Music & dance,0.913895,1
+9,V119,Music & dance,0.910897,1
+9,V104,Music & dance,0.903697,0
+10,V110,Music & dance,0.945382,1
+10,V115,Music & dance,0.941263,1
+10,V111,Music & dance,0.937585,1
+10,V116,Music & dance,0.937052,1
+10,V102,Music & dance,0.922072,0
+10,V103,Music & dance,0.918171,0
+10,V106,Music & dance,0.914096,1
+10,V118,Music & dance,0.913895,1
+10,V119,Music & dance,0.910897,1
+10,V104,Music & dance,0.903697,1
+11,V110,Music & dance,0.945382,0
+11,V115,Music & dance,0.941263,1
+11,V111,Music & dance,0.937585,1
+11,V116,Music & dance,0.937052,1
+11,V102,Music & dance,0.922072,1
+11,V103,Music & dance,0.918171,1
+11,V106,Music & dance,0.914096,1
+11,V118,Music & dance,0.913895,0
+11,V119,Music & dance,0.910897,1
+11,V104,Music & dance,0.903697,0
+12,V110,Music & dance,0.945382,1
+12,V115,Music & dance,0.941263,1
+12,V111,Music & dance,0.937585,1
+12,V116,Music & dance,0.937052,1
+12,V102,Music & dance,0.922072,1
+12,V103,Music & dance,0.918171,1
+12,V106,Music & dance,0.914096,0
+12,V118,Music & dance,0.913895,1
+12,V119,Music & dance,0.910897,1
+12,V104,Music & dance,0.903697,1
+13,V110,Music & dance,0.945382,1
+13,V115,Music & dance,0.941263,1
+13,V111,Music & dance,0.937585,1
+13,V116,Music & dance,0.937052,0
+13,V102,Music & dance,0.922072,1
+13,V103,Music & dance,0.918171,1
+13,V106,Music & dance,0.914096,1
+13,V118,Music & dance,0.913895,1
+13,V119,Music & dance,0.910897,1
+13,V104,Music & dance,0.903697,1
+14,V110,Music & dance,0.945382,1
+14,V115,Music & dance,0.941263,1
+14,V111,Music & dance,0.937585,1
+14,V116,Music & dance,0.937052,1
+14,V102,Music & dance,0.922072,0
+14,V103,Music & dance,0.918171,0
+14,V106,Music & dance,0.914096,1
+14,V118,Music & dance,0.913895,1
+14,V119,Music & dance,0.910897,1
+14,V104,Music & dance,0.903697,0
+15,V110,Music & dance,0.945382,0
+15,V115,Music & dance,0.941263,0
+15,V111,Music & dance,0.937585,1
+15,V116,Music & dance,0.937052,1
+15,V102,Music & dance,0.922072,0
+15,V103,Music & dance,0.918171,1
+15,V106,Music & dance,0.914096,1
+15,V118,Music & dance,0.913895,0
+15,V119,Music & dance,0.910897,1
+15,V104,Music & dance,0.903697,1
+16,V110,Music & dance,0.945382,0
+16,V115,Music & dance,0.941263,1
+16,V111,Music & dance,0.937585,1
+16,V116,Music & dance,0.937052,0
+16,V102,Music & dance,0.922072,1
+16,V103,Music & dance,0.918171,1
+16,V106,Music & dance,0.914096,1
+16,V118,Music & dance,0.913895,1
+16,V119,Music & dance,0.910897,1
+16,V104,Music & dance,0.903697,1
+17,V110,Music & dance,0.945382,1
+17,V115,Music & dance,0.941263,1
+17,V111,Music & dance,0.937585,1
+17,V116,Music & dance,0.937052,1
+17,V102,Music & dance,0.922072,1
+17,V103,Music & dance,0.918171,0
+17,V106,Music & dance,0.914096,0
+17,V118,Music & dance,0.913895,1
+17,V119,Music & dance,0.910897,1
+17,V104,Music & dance,0.903697,1
+18,V110,Music & dance,0.945382,1
+18,V115,Music & dance,0.941263,1
+18,V111,Music & dance,0.937585,1
+18,V116,Music & dance,0.937052,1
+18,V102,Music & dance,0.922072,1
+18,V103,Music & dance,0.918171,1
+18,V106,Music & dance,0.914096,1
+18,V118,Music & dance,0.913895,1
+18,V119,Music & dance,0.910897,1
+18,V104,Music & dance,0.903697,0
+19,V110,Music & dance,0.945382,0
+19,V115,Music & dance,0.941263,1
+19,V111,Music & dance,0.937585,0
+19,V116,Music & dance,0.937052,1
+19,V102,Music & dance,0.922072,1
+19,V103,Music & dance,0.918171,1
+19,V106,Music & dance,0.914096,1
+19,V118,Music & dance,0.913895,0
+19,V119,Music & dance,0.910897,1
+19,V104,Music & dance,0.903697,0
+20,V110,Music & dance,0.945382,0
+20,V115,Music & dance,0.941263,1
+20,V111,Music & dance,0.937585,1
+20,V116,Music & dance,0.937052,1
+20,V102,Music & dance,0.922072,1
+20,V103,Music & dance,0.918171,0
+20,V106,Music & dance,0.914096,1
+20,V118,Music & dance,0.913895,1
+20,V119,Music & dance,0.910897,1
+20,V104,Music & dance,0.903697,0

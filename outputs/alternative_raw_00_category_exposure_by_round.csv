@@ -1,0 +1,121 @@
+round,category,recommendation_count,distinct_categories_in_feed,dominant_category_share,engaged_videos_in_round,preference_after_round
+1,Food & cooking,0,5,0.3,3,0.5
+1,Travel & places,2,5,0.3,3,0.53
+1,Fashion & beauty,1,5,0.3,3,0.5
+1,Comedy & memes,3,5,0.3,3,0.5
+1,Gaming,3,5,0.3,3,0.53
+1,Music & dance,1,5,0.3,3,0.53
+2,Food & cooking,0,3,0.4,6,0.5
+2,Travel & places,2,3,0.4,6,0.56
+2,Fashion & beauty,0,3,0.4,6,0.5
+2,Comedy & memes,0,3,0.4,6,0.5
+2,Gaming,4,3,0.4,6,0.59
+2,Music & dance,4,3,0.4,6,0.62
+3,Food & cooking,0,2,0.6,8,0.5
+3,Travel & places,0,2,0.6,8,0.56
+3,Fashion & beauty,0,2,0.6,8,0.5
+3,Comedy & memes,0,2,0.6,8,0.5
+3,Gaming,4,2,0.6,8,0.71
+3,Music & dance,6,2,0.6,8,0.74
+4,Food & cooking,0,2,0.6,8,0.5
+4,Travel & places,0,2,0.6,8,0.56
+4,Fashion & beauty,0,2,0.6,8,0.5
+4,Comedy & memes,0,2,0.6,8,0.5
+4,Gaming,4,2,0.6,8,0.83
+4,Music & dance,6,2,0.6,8,0.86
+5,Food & cooking,0,2,0.6,8,0.5
+5,Travel & places,0,2,0.6,8,0.56
+5,Fashion & beauty,0,2,0.6,8,0.5
+5,Comedy & memes,0,2,0.6,8,0.5
+5,Gaming,4,2,0.6,8,0.92
+5,Music & dance,6,2,0.6,8,1.0
+6,Food & cooking,0,1,1.0,8,0.5
+6,Travel & places,0,1,1.0,8,0.56
+6,Fashion & beauty,0,1,1.0,8,0.5
+6,Comedy & memes,0,1,1.0,8,0.5
+6,Gaming,0,1,1.0,8,0.92
+6,Music & dance,10,1,1.0,8,1.0
+7,Food & cooking,0,1,1.0,8,0.5
+7,Travel & places,0,1,1.0,8,0.56
+7,Fashion & beauty,0,1,1.0,8,0.5
+7,Comedy & memes,0,1,1.0,8,0.5
+7,Gaming,0,1,1.0,8,0.92
+7,Music & dance,10,1,1.0,8,1.0
+8,Food & cooking,0,1,1.0,6,0.5
+8,Travel & places,0,1,1.0,6,0.56
+8,Fashion & beauty,0,1,1.0,6,0.5
+8,Comedy & memes,0,1,1.0,6,0.5
+8,Gaming,0,1,1.0,6,0.92
+8,Music & dance,10,1,1.0,6,1.0
+9,Food & cooking,0,1,1.0,6,0.5
+9,Travel & places,0,1,1.0,6,0.56
+9,Fashion & beauty,0,1,1.0,6,0.5
+9,Comedy & memes,0,1,1.0,6,0.5
+9,Gaming,0,1,1.0,6,0.92
+9,Music & dance,10,1,1.0,6,1.0
+10,Food & cooking,0,1,1.0,8,0.5
+10,Travel & places,0,1,1.0,8,0.56
+10,Fashion & beauty,0,1,1.0,8,0.5
+10,Comedy & memes,0,1,1.0,8,0.5
+10,Gaming,0,1,1.0,8,0.92
+10,Music & dance,10,1,1.0,8,1.0
+11,Food & cooking,0,1,1.0,7,0.5
+11,Travel & places,0,1,1.0,7,0.56
+11,Fashion & beauty,0,1,1.0,7,0.5
+11,Comedy & memes,0,1,1.0,7,0.5
+11,Gaming,0,1,1.0,7,0.92
+11,Music & dance,10,1,1.0,7,1.0
+12,Food & cooking,0,1,1.0,9,0.5
+12,Travel & places,0,1,1.0,9,0.56
+12,Fashion & beauty,0,1,1.0,9,0.5
+12,Comedy & memes,0,1,1.0,9,0.5
+12,Gaming,0,1,1.0,9,0.92
+12,Music & dance,10,1,1.0,9,1.0
+13,Food & cooking,0,1,1.0,9,0.5
+13,Travel & places,0,1,1.0,9,0.56
+13,Fashion & beauty,0,1,1.0,9,0.5
+13,Comedy & memes,0,1,1.0,9,0.5
+13,Gaming,0,1,1.0,9,0.92
+13,Music & dance,10,1,1.0,9,1.0
+14,Food & cooking,0,1,1.0,7,0.5
+14,Travel & places,0,1,1.0,7,0.56
+14,Fashion & beauty,0,1,1.0,7,0.5
+14,Comedy & memes,0,1,1.0,7,0.5
+14,Gaming,0,1,1.0,7,0.92
+14,Music & dance,10,1,1.0,7,1.0
+15,Food & cooking,0,1,1.0,6,0.5
+15,Travel & places,0,1,1.0,6,0.56
+15,Fashion & beauty,0,1,1.0,6,0.5
+15,Comedy & memes,0,1,1.0,6,0.5
+15,Gaming,0,1,1.0,6,0.92
+15,Music & dance,10,1,1.0,6,1.0
+16,Food & cooking,0,1,1.0,8,0.5
+16,Travel & places,0,1,1.0,8,0.56
+16,Fashion & beauty,0,1,1.0,8,0.5
+16,Comedy & memes,0,1,1.0,8,0.5
+16,Gaming,0,1,1.0,8,0.92
+16,Music & dance,10,1,1.0,8,1.0
+17,Food & cooking,0,1,1.0,8,0.5
+17,Travel & places,0,1,1.0,8,0.56
+17,Fashion & beauty,0,1,1.0,8,0.5
+17,Comedy & memes,0,1,1.0,8,0.5
+17,Gaming,0,1,1.0,8,0.92
+17,Music & dance,10,1,1.0,8,1.0
+18,Food & cooking,0,1,1.0,9,0.5
+18,Travel & places,0,1,1.0,9,0.56
+18,Fashion & beauty,0,1,1.0,9,0.5
+18,Comedy & memes,0,1,1.0,9,0.5
+18,Gaming,0,1,1.0,9,0.92
+18,Music & dance,10,1,1.0,9,1.0
+19,Food & cooking,0,1,1.0,6,0.5
+19,Travel & places,0,1,1.0,6,0.56
+19,Fashion & beauty,0,1,1.0,6,0.5
+19,Comedy & memes,0,1,1.0,6,0.5
+19,Gaming,0,1,1.0,6,0.92
+19,Music & dance,10,1,1.0,6,1.0
+20,Food & cooking,0,1,1.0,7,0.5
+20,Travel & places,0,1,1.0,7,0.56
+20,Fashion & beauty,0,1,1.0,7,0.5
+20,Comedy & memes,0,1,1.0,7,0.5
+20,Gaming,0,1,1.0,7,0.92
+20,Music & dance,10,1,1.0,7,1.0

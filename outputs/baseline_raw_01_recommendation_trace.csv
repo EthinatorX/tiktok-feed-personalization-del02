@@ -1,0 +1,201 @@
+round,video_id,category,ranking_score,engaged
+1,V087,Gaming,0.748769,0
+1,V097,Gaming,0.748061,0
+1,V061,Comedy & memes,0.744762,0
+1,V034,Travel & places,0.736558,0
+1,V099,Gaming,0.735539,1
+1,V025,Travel & places,0.728607,1
+1,V110,Music & dance,0.726908,1
+1,V072,Comedy & memes,0.721455,0
+1,V054,Fashion & beauty,0.718327,0
+1,V077,Comedy & memes,0.707274,0
+2,V087,Gaming,0.748769,1
+2,V097,Gaming,0.748061,1
+2,V061,Comedy & memes,0.744762,0
+2,V034,Travel & places,0.736558,0
+2,V099,Gaming,0.735539,1
+2,V025,Travel & places,0.728607,1
+2,V110,Music & dance,0.726908,1
+2,V072,Comedy & memes,0.721455,0
+2,V054,Fashion & beauty,0.718327,0
+2,V077,Comedy & memes,0.707274,1
+3,V087,Gaming,0.748769,1
+3,V097,Gaming,0.748061,1
+3,V061,Comedy & memes,0.744762,1
+3,V034,Travel & places,0.736558,0
+3,V099,Gaming,0.735539,1
+3,V025,Travel & places,0.728607,1
+3,V110,Music & dance,0.726908,0
+3,V072,Comedy & memes,0.721455,0
+3,V054,Fashion & beauty,0.718327,1
+3,V077,Comedy & memes,0.707274,1
+4,V087,Gaming,0.748769,0
+4,V097,Gaming,0.748061,0
+4,V061,Comedy & memes,0.744762,1
+4,V034,Travel & places,0.736558,1
+4,V099,Gaming,0.735539,1
+4,V025,Travel & places,0.728607,1
+4,V110,Music & dance,0.726908,1
+4,V072,Comedy & memes,0.721455,0
+4,V054,Fashion & beauty,0.718327,1
+4,V077,Comedy & memes,0.707274,1
+5,V087,Gaming,0.748769,1
+5,V097,Gaming,0.748061,1
+5,V061,Comedy & memes,0.744762,1
+5,V034,Travel & places,0.736558,0
+5,V099,Gaming,0.735539,0
+5,V025,Travel & places,0.728607,1
+5,V110,Music & dance,0.726908,1
+5,V072,Comedy & memes,0.721455,0
+5,V054,Fashion & beauty,0.718327,1
+5,V077,Comedy & memes,0.707274,1
+6,V087,Gaming,0.748769,0
+6,V097,Gaming,0.748061,1
+6,V061,Comedy & memes,0.744762,1
+6,V034,Travel & places,0.736558,0
+6,V099,Gaming,0.735539,0
+6,V025,Travel & places,0.728607,1
+6,V110,Music & dance,0.726908,1
+6,V072,Comedy & memes,0.721455,1
+6,V054,Fashion & beauty,0.718327,1
+6,V077,Comedy & memes,0.707274,1
+7,V087,Gaming,0.748769,0
+7,V097,Gaming,0.748061,1
+7,V061,Comedy & memes,0.744762,0
+7,V034,Travel & places,0.736558,1
+7,V099,Gaming,0.735539,1
+7,V025,Travel & places,0.728607,1
+7,V110,Music & dance,0.726908,0
+7,V072,Comedy & memes,0.721455,1
+7,V054,Fashion & beauty,0.718327,1
+7,V077,Comedy & memes,0.707274,1
+8,V087,Gaming,0.748769,1
+8,V097,Gaming,0.748061,1
+8,V061,Comedy & memes,0.744762,1
+8,V034,Travel & places,0.736558,0
+8,V099,Gaming,0.735539,1
+8,V025,Travel & places,0.728607,0
+8,V110,Music & dance,0.726908,1
+8,V072,Comedy & memes,0.721455,1
+8,V054,Fashion & beauty,0.718327,0
+8,V077,Comedy & memes,0.707274,0
+9,V087,Gaming,0.748769,0
+9,V097,Gaming,0.748061,0
+9,V061,Comedy & memes,0.744762,0
+9,V034,Travel & places,0.736558,1
+9,V099,Gaming,0.735539,1
+9,V025,Travel & places,0.728607,1
+9,V110,Music & dance,0.726908,1
+9,V072,Comedy & memes,0.721455,1
+9,V054,Fashion & beauty,0.718327,1
+9,V077,Comedy & memes,0.707274,0
+10,V087,Gaming,0.748769,1
+10,V097,Gaming,0.748061,1
+10,V061,Comedy & memes,0.744762,1
+10,V034,Travel & places,0.736558,1
+10,V099,Gaming,0.735539,0
+10,V025,Travel & places,0.728607,0
+10,V110,Music & dance,0.726908,1
+10,V072,Comedy & memes,0.721455,1
+10,V054,Fashion & beauty,0.718327,1
+10,V077,Comedy & memes,0.707274,1
+11,V087,Gaming,0.748769,0
+11,V097,Gaming,0.748061,1
+11,V061,Comedy & memes,0.744762,1
+11,V034,Travel & places,0.736558,0
+11,V099,Gaming,0.735539,1
+11,V025,Travel & places,0.728607,1
+11,V110,Music & dance,0.726908,1
+11,V072,Comedy & memes,0.721455,0
+11,V054,Fashion & beauty,0.718327,1
+11,V077,Comedy & memes,0.707274,0
+12,V087,Gaming,0.748769,1
+12,V097,Gaming,0.748061,1
+12,V061,Comedy & memes,0.744762,1
+12,V034,Travel & places,0.736558,1
+12,V099,Gaming,0.735539,1
+12,V025,Travel & places,0.728607,1
+12,V110,Music & dance,0.726908,0
+12,V072,Comedy & memes,0.721455,1
+12,V054,Fashion & beauty,0.718327,1
+12,V077,Comedy & memes,0.707274,1
+13,V087,Gaming,0.748769,1
+13,V097,Gaming,0.748061,1
+13,V061,Comedy & memes,0.744762,1
+13,V034,Travel & places,0.736558,0
+13,V099,Gaming,0.735539,1
+13,V025,Travel & places,0.728607,1
+13,V110,Music & dance,0.726908,1
+13,V072,Comedy & memes,0.721455,1
+13,V054,Fashion & beauty,0.718327,0
+13,V077,Comedy & memes,0.707274,1
+14,V087,Gaming,0.748769,1
+14,V097,Gaming,0.748061,1
+14,V061,Comedy & memes,0.744762,1
+14,V034,Travel & places,0.736558,1
+14,V099,Gaming,0.735539,0
+14,V025,Travel & places,0.728607,0
+14,V110,Music & dance,0.726908,1
+14,V072,Comedy & memes,0.721455,1
+14,V054,Fashion & beauty,0.718327,1
+14,V077,Comedy & memes,0.707274,0
+15,V087,Gaming,0.748769,0
+15,V097,Gaming,0.748061,0
+15,V061,Comedy & memes,0.744762,1
+15,V034,Travel & places,0.736558,1
+15,V099,Gaming,0.735539,0
+15,V025,Travel & places,0.728607,1
+15,V110,Music & dance,0.726908,1
+15,V072,Comedy & memes,0.721455,0
+15,V054,Fashion & beauty,0.718327,1
+15,V077,Comedy & memes,0.707274,1
+16,V087,Gaming,0.748769,0
+16,V097,Gaming,0.748061,1
+16,V061,Comedy & memes,0.744762,1
+16,V034,Travel & places,0.736558,0
+16,V099,Gaming,0.735539,1
+16,V025,Travel & places,0.728607,1
+16,V110,Music & dance,0.726908,1
+16,V072,Comedy & memes,0.721455,1
+16,V054,Fashion & beauty,0.718327,1
+16,V077,Comedy & memes,0.707274,1
+17,V087,Gaming,0.748769,1
+17,V097,Gaming,0.748061,1
+17,V061,Comedy & memes,0.744762,1
+17,V034,Travel & places,0.736558,1
+17,V099,Gaming,0.735539,1
+17,V025,Travel & places,0.728607,0
+17,V110,Music & dance,0.726908,0
+17,V072,Comedy & memes,0.721455,1
+17,V054,Fashion & beauty,0.718327,1
+17,V077,Comedy & memes,0.707274,1
+18,V087,Gaming,0.748769,1
+18,V097,Gaming,0.748061,1
+18,V061,Comedy & memes,0.744762,1
+18,V034,Travel & places,0.736558,1
+18,V099,Gaming,0.735539,1
+18,V025,Travel & places,0.728607,1
+18,V110,Music & dance,0.726908,1
+18,V072,Comedy & memes,0.721455,1
+18,V054,Fashion & beauty,0.718327,1
+18,V077,Comedy & memes,0.707274,0
+19,V087,Gaming,0.748769,0
+19,V097,Gaming,0.748061,1
+19,V061,Comedy & memes,0.744762,0
+19,V034,Travel & places,0.736558,1
+19,V099,Gaming,0.735539,1
+19,V025,Travel & places,0.728607,1
+19,V110,Music & dance,0.726908,1
+19,V072,Comedy & memes,0.721455,0
+19,V054,Fashion & beauty,0.718327,0
+19,V077,Comedy & memes,0.707274,0
+20,V087,Gaming,0.748769,0
+20,V097,Gaming,0.748061,1
+20,V061,Comedy & memes,0.744762,1
+20,V034,Travel & places,0.736558,1
+20,V099,Gaming,0.735539,1
+20,V025,Travel & places,0.728607,0
+20,V110,Music & dance,0.726908,1
+20,V072,Comedy & memes,0.721455,1
+20,V054,Fashion & beauty,0.718327,1
+20,V077,Comedy & memes,0.707274,0
